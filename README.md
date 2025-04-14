@@ -1,22 +1,28 @@
-# Therapy Scheduler - ERD
+# Therapy Scheduler - System Design
 
-## Project Overview
-This project contains an Entity-Relationship Diagram (ERD) designed for a therapy company.  
-The system models patients scheduling appointments with available doctors.
+## Overview
+This project models a therapy company's scheduling system, covering database structure, class interactions, and overall system architecture.
 
-It demonstrates relational database planning and basic system analysis and design principles.
+## Artifacts
 
-## Diagram
-![Therapy ERD](therapy_erd.png)
+### 1. Entity-Relationship Diagram (ERD)
+Models the database structure: patients, doctors, and appointments.
+![ERD](therapy_erd.png)
 
-## Key Entities
-- **Patient**: Stores patient information.
-- **Doctor**: Stores therapist details and specialties.
-- **Appointment**: Links patients and doctors with date/time for sessions.
+### 2. Class Diagram
+Models object-oriented relationships between entities.
+![Class Diagram](therapy_class_diagram.png)
+
+### 3. System Architecture Diagram
+Shows system layers: client, server, and database.
+![System Architecture](therapy_system_architecture.png)
 
 ## Tools Used
 - Lucidchart
+- UML Standards
 
 ## Learning Outcomes
-- Database design skills
-- System analysis and modeling
+- System analysis and design
+- Relational database modeling
+- Object-oriented design
+- Software architecture modeling
